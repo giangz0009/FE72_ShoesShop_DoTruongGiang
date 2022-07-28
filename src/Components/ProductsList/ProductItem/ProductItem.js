@@ -11,10 +11,12 @@ export default class ProductItem extends Component {
             <h3>{name}</h3>
             <p>${price}</p>
             <button
+              data-bs-toggle="modal"
+              data-bs-target="#detailStaticBackdrop"
               className="btn btn-primary me-3"
               onClick={() => {
                 this.props.changeShowingDetail(id);
-                document.getElementById("productDetail").scrollIntoView();
+                // document.getElementById("productDetail").scrollIntoView();
               }}
             >
               View Detail

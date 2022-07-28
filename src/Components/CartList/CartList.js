@@ -47,7 +47,7 @@ export default class CartList extends Component {
       <div
         className="modal fade"
         id="staticBackdrop"
-        data-bs-backdrop="static"
+        // data-bs-backdrop="static"
         data-bs-keyboard="false"
         tabIndex={-1}
         aria-labelledby="staticBackdropLabel"
